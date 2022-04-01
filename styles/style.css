@@ -1,4 +1,31 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+/*------------ navigation section ------------*/
 .navigation-section {
     width: 70%;
     padding: 15px 0px;
+}
+
+/* ----------- banner section -------------- */
+.banner-image {
+    height: 800px;
+}
+
+.banner-title {
+    padding-bottom: 400px;
+    color: rgba(0, 0, 0, 0.775);
+}
+
+/*------------ request section -------------*/
+.request-section {
+    text-align: center;
+    margin: 70px;
+}
+
+.request-image {
+    margin: 50px 0px;
 }
