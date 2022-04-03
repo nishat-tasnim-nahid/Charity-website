@@ -4,7 +4,7 @@
     margin: 0px;
 }
 
-/* top header */
+/*-------- top header --------*/
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -24,17 +24,13 @@
 }
 
 
-/*header styling*/
+/*------ header nav styling ---------*/
 header#site-header {
     width: 100%;
     background: #f4f4f4;
     padding: 15px 0px;
     transition: all 0.2s ease;
-    /* height: 70px; */
-    /* box-shadow: 0 2px 10px #dddddd; */
     position: fixed;
-    /* top: 0;
-    left: 0; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -85,7 +81,6 @@ header#site-header div#site-header-logo img {
 }
 
 header#site-header ul#main-menu {
-    /* display: flex; */
     padding: 0;
 }
 
@@ -122,7 +117,7 @@ header#site-header div#site-header-auth-container .site-header-auth-button i:aft
     margin-right: 0.32em;
 }
 
-/*mobile menu styling*/
+/*----- header nav mobile menu styling ----*/
 
 #side-menu-container {
     padding-right: 20px;
@@ -139,31 +134,9 @@ input[type=checkbox]#toggleSideMenu {
     display: none;
 }
 
-/*media queries*/
-
-/* @media screen and (min-width: 1201px) and (max-width: 1500px) { */
-/*header#site-header #site-header-search-container input[type="text"]:focus {
-        width: 250px;
-    }*/
-/* } */
-
 @media screen and (max-width: 1200px) {
 
-    /*to fit the size of the hamburger button*/
-    /* header#site-header {
-        height: 60px;
-    } */
-
-    /* header#site-header div#site-header-container {
-        height: 30px;
-    } */
-
-    /* header#site-header div#site-header-logo {
-        margin-right: 10px;
-        margin-left: 35px;
-    } */
-
-    /*styling the container for the menu*/
+    /*----- styling the container for the menu ------*/
     #side-menu-container {
         position: fixed;
         left: -250px;
@@ -176,28 +149,6 @@ input[type=checkbox]#toggleSideMenu {
         box-shadow: inset -1px 0 5px #eeeeee;
     }
 
-    /* header #side-menu-container #before-side-menu,
-    header #side-menu-container #after-side-menu {
-        display: block;
-        background: #aaaaaa;
-        color: #fafafa;
-        padding: 10px;
-    } */
-
-    /* header #side-menu-container #before-side-menu span,
-    header #side-menu-container #after-side-menu span {
-        font-size: 10pt;
-        font-style: italic;
-    } */
-
-    /*styling the menu inside the <nav> block*/
-    /* #top-menu {
-        
-        transition: top 0.5s ease;
-        width: 100%;
-        margin: 0;
-    } */
-
     header#site-header ul#main-menu li {
         display: block;
         width: 100%;
@@ -206,33 +157,17 @@ input[type=checkbox]#toggleSideMenu {
         border-bottom: 1px solid #dddddd;
     }
 
-    /* header#site-header ul#main-menu li:last-of-type {
-        border-bottom: none;
-    } */
-
-    /* header#site-header ul#main-menu li a {
-        margin: 0;
-        padding: 0;
-    } */
-
-    /* input[type=checkbox]#toggleSideMenu {
-        box-sizing: border-box;
-        display: none;
-    } */
-
     input[type="checkbox"]#toggleSideMenu:checked~#side-menu-container {
         transform: translateX(250px);
     }
 
-    /*hamburger icon styling*/
+    /*---- hamburger icon styling -----*/
     .hamburger-icon {
         box-sizing: border-box;
         cursor: pointer;
         position: absolute;
         z-index: 99;
-
         top: 22px;
-
         left: 22px;
         height: 22px;
         width: 22px;
@@ -261,13 +196,6 @@ input[type=checkbox]#toggleSideMenu {
         float: left;
         margin-top: 4px;
     }
-
-    /* .diagonal-2 {
-        box-sizing: border-box;
-        position: relative;
-        float: left;
-        margin-top: 3px;
-    } */
 
     input[type=checkbox]#toggleSideMenu:checked~.hamburger-icon>.horizontal {
 
@@ -302,10 +230,6 @@ input[type=checkbox]#toggleSideMenu {
 }
 
 
-
-
-
-
 /*------------ navigation section ------------*/
 .navigation-section {
     width: 70%;
@@ -326,13 +250,12 @@ input[type=checkbox]#toggleSideMenu {
     color: rgba(0, 0, 0, 0.775);
 }
 
-
-/* gallery section */
+/*---- Gallery section, Donate & Team section images slider -----*/
 
 .box {
     width: 465px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-    /* border-radius: 10px; */
+    border-radius: 5px;
     overflow: hidden;
     margin: 0px 25px;
 }
@@ -343,7 +266,6 @@ input[type=checkbox]#toggleSideMenu {
 
 .slide-img {
     height: 350px;
-    /* width: 500px; */
     position: relative;
 }
 
@@ -369,22 +291,11 @@ input[type=checkbox]#toggleSideMenu {
 }
 
 .social-btn {
-
     width: 160px;
     height: 40px;
     display: flex;
     justify-content: center;
     margin-top: 0px;
-
-    /* align-items: center; */
-    /* border: 2px solid red; */
-    /* background-color: #fff; */
-    /* color: black; */
-    /* font-weight: 700;
-    letter-spacing: 1px;
-    border-radius: 20px; */
-    /* box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); */
-
 }
 
 .social-icons {
@@ -417,31 +328,13 @@ input[type=checkbox]#toggleSideMenu {
 
 .slider {
     width: 100%;
-    /* height: 100vh; */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
 
-
-
-
-
-
-/* footer */
-.footer-section {
-    text-align: left;
-    margin: 70px;
-    padding: 0px 100px;
-
-}
-
-.footer-info {
-    margin: 35px 0px;
-}
-
+/*----------- footer ---------- */
 .footer-info img {
-    width: 50px;
+    width: 70px;
 }
 
 .socialIcons {
@@ -452,12 +345,16 @@ input[type=checkbox]#toggleSideMenu {
 .social-icon {
     background-color: black;
     color: white;
-
     font-size: 24px;
     cursor: pointer;
     margin-right: 10px;
-    padding: 12px;
+    padding: 8px;
     border-radius: 5px;
+}
+
+.social-icon:hover {
+    background-color: rgb(242, 106, 56);
+    color: black;
 }
 
 .footer-horizental-line {
@@ -466,12 +363,6 @@ input[type=checkbox]#toggleSideMenu {
     background-color: coral;
     margin-left: 1px;
     margin-bottom: 15px;
-
-}
-
-.social-icon:hover {
-    background-color: rgb(242, 106, 56);
-    color: black;
 }
 
 .footer-bottom {
