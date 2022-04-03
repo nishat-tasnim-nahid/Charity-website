@@ -6,17 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Charity website</title>
+
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/a364c6e355.js" crossorigin="anonymous"></script>
-
-    <!-- bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-
-
-    <title>Charity website</title>
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- light slider css -->
+    <link rel="stylesheet" href="css/lightslider.css">
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+    <!-- light slider js -->
+    <script src="js/lightslider.js"></script>
+
 </head>
 
 <body>
@@ -53,15 +57,9 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Responsive</a></li>
-                                <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Food</a></li>
-                                <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Cloth</a></li>
-                                <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Book</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
                             </ul>
                         </li>
 
@@ -72,15 +70,9 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Responsive</a></li>
-                                <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Food</a></li>
-                                <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Cloth</a></li>
-                                <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Book</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
                             </ul>
                         </li>
 
@@ -144,9 +136,10 @@
 
     <!---------------- main section ----------------------->
     <main>
-        <div class="request-section">
+        <!-- request section -->
+        <section class="request-section">
             <div>
-                <h2 class="request-title">Request what you what from benevolent people</h2>
+                <h2 class="section-title">Request what you what from benevolent people</h2>
                 <div class="row ">
                     <div class="col-lg-4 col-md-6 col-sm-12 request-image">
                         <img src="images/image1.png" alt="">
@@ -159,7 +152,146 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- gallery section -->
+        <section class="slider">
+            <h2 class="section-title">Gallery</h2>
+            <ul id="autoWidth" class="cs-hidden">
+                <!-- 1...... -->
+                <li class="item-a">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="images/image1.png" alt="">
+                            <!-- <div class="overlay">
+                                <p><b>Mahinur Rahman Mim</b></p>
+                                <p class="buy-btn">
+                                    <i class="fab fa-facebook social-icons"></i>
+                                    <i class="fab fa-github social-icons"></i>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 2...... -->
+                <li class="item-b">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="images/image2.png" alt="">
+                            <!-- <div class="overlay">
+                                <p><b>Mahinur Rahman Mim</b></p>
+                                <p class="buy-btn">
+                                    <i class="fab fa-facebook social-icons"></i>
+                                    <i class="fab fa-github social-icons"></i>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 3...... -->
+                <li class="item-c">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="images/image3.png" alt="">
+                            <!-- <div class="overlay">
+                                <p><b>Mahinur Rahman Mim</b></p>
+                                <p class="buy-btn">
+                                    <i class="fab fa-facebook social-icons"></i>
+                                    <i class="fab fa-github social-icons"></i>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 4...... -->
+                <li class="item-d">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="images/image1.png" alt="">
+                            <!-- <div class="overlay">
+                                <p><b>Mahinur Rahman Mim</b></p>
+                                <p class="buy-btn">
+                                    <i class="fab fa-facebook social-icons"></i>
+                                    <i class="fab fa-github social-icons"></i>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 5...... -->
+                <li class="item-e">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="images/image2.png" alt="">
+                            <!-- <div class="overlay">
+                                <p><b>Mahinur Rahman Mim</b></p>
+                                <p class="buy-btn">
+                                    <i class="fab fa-facebook social-icons"></i>
+                                    <i class="fab fa-github social-icons"></i>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 6...... -->
+                <li class="item-f">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="images/image3.png" alt="">
+                            <!-- <div class="overlay">
+                                <p><b>Mahinur Rahman Mim</b></p>
+                                <p class="buy-btn">
+                                    <i class="fab fa-facebook social-icons"></i>
+                                    <i class="fab fa-github social-icons"></i>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 7...... -->
+                <li class="item-g">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="images/image1.png" alt="">
+                            <!-- <div class="overlay">
+                                <p><b>Mahinur Rahman Mim</b></p>
+                                <p class="buy-btn">
+                                    <i class="fab fa-facebook social-icons"></i>
+                                    <i class="fab fa-github social-icons"></i>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 8...... -->
+                <li class="item-h">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="images/image2.png" alt="">
+                            <!-- <div class="overlay">
+                                <p><b>Mahinur Rahman Mim</b></p>
+                                <p class="buy-btn">
+                                    <i class="fab fa-facebook social-icons"></i>
+                                    <i class="fab fa-github social-icons"></i>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
+
+
+
     </main>
 
 
@@ -167,9 +299,11 @@
     <footer class="footer-section">
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 footer-info">
-                <h4>Need'Z</h4>
-                <hr>
-                <div class="social-icons">
+                <img src="images/logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit</p>
+
+
+                <div class="socialIcons">
                     <p><i class="fab fa-facebook social-icon"></i></p>
                     <p><i class="fab fa-twitter social-icon"></i></p>
                     <p><i class="fab fa-google-plus-g social-icon"></i></p>
@@ -178,32 +312,35 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 footer-info">
                 <h4>SITE</h4>
-                <hr>
+                <div class="footer-horizental-line"></div>
                 <p>Gallery</p>
                 <p>About Us</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 footer-info">
                 <h4>SUPPORT</h4>
-                <hr>
+                <div class="footer-horizental-line"></div>
                 <p>Help & FAQ</p>
                 <p>Sign Up As a Provider</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 footer-info">
                 <h4>CONTRACT US</h4>
-                <hr>
+                <div class="footer-horizental-line"></div>
                 <p><i class="fas fa-phone"></i> +65 7896 7620</p>
                 <p><i class="fas fa-envelope"></i> example@gmail.com</p>
             </div>
         </div>
+
     </footer>
+    <h6 class="footer-bottom">@ Need'z. All rights reserved.</h6>
 
 
 
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script> -->
+    <!-- js -->
+    <script src="js/script.js"></script>
+
+
 </body>
 
 </html>
