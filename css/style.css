@@ -328,6 +328,11 @@ input[type=checkbox]#toggleSideMenu {
 }
 
 /*----------- footer ---------- */
+.footer-section,
+.footer-info {
+    background: #F2F4F8;
+}
+
 .footer-info img {
     width: 70px;
 }
