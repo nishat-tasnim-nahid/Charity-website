@@ -4,8 +4,9 @@
     margin: 0px;
 }
 
-/*-------- top header --------*/
-.top-header {
+/*-------- top header & footer bottom--------*/
+.top-header,
+.footer-bottom {
     background-color: #373F41;
     color: #fff;
 }
@@ -357,12 +358,4 @@ input[type=checkbox]#toggleSideMenu {
     background-color: coral;
     margin-left: 1px;
     margin-bottom: 15px;
-}
-
-.footer-bottom {
-    margin: 0;
-    background-color: #373F41;
-    color: white;
-    padding: 30px;
-    text-align: center;
 }
