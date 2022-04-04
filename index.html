@@ -25,73 +25,76 @@
 </head>
 
 <body>
-    <!----------- top header --------------->
-    <div class="d-flex bd-highlight px-5 top-header">
-        <div class="p-2 pe-4 bd-highlight">
-            <p>01723456789</p>
-        </div>
-        <div class="p-2 bd-highlight">
-            <p>example@gmail.com</p>
-        </div>
-        <div class="ms-auto p-2 bd-highlight">
-            <p>English / Bangla</p>
-        </div>
-    </div>
-
 
     <!----------- header section ----------->
-    <header id="site-header">
-        <div id="site-header-logo">
-            <img src="images/logo.png" alt="">
-        </div>
-        <div id="site-header-container">
-            <input type="checkbox" class="toggleSideMenu" id="toggleSideMenu" autocomplete="off">
-            <label for="toggleSideMenu" class="hamburger-icon">
-                <div class="hamburger-menu-line diagonal-1"></div>
-                <div class="hamburger-menu-line horizontal"></div>
-                <div class="hamburger-menu-line diagonal-2"></div>
-            </label>
-            <div id="side-menu-container">
-                <nav id="top-menu">
-                    <ul id="main-menu">
-                        <li class="nav-item dropdown main-menu-item">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Take
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Responsive</a></li>
-                                <li><a class="dropdown-item" href="#">Food</a></li>
-                                <li><a class="dropdown-item" href="#">Cloth</a></li>
-                                <li><a class="dropdown-item" href="#">Book</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown main-menu-item">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Share
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Responsive</a></li>
-                                <li><a class="dropdown-item" href="#">Food</a></li>
-                                <li><a class="dropdown-item" href="#">Cloth</a></li>
-                                <li><a class="dropdown-item" href="#">Book</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item main-menu-item">
-                            <a class="nav-link active" href="#">Help</a>
-                        </li>
-                        <li class="nav-item main-menu-item">
-                            <a class="nav-link active" href="#">Donate</a>
-                        </li>
-                    </ul>
-                </nav>
+    <header id="all-header">
+        <!------ top header --------->
+        <div class="d-flex bd-highlight px-5 top-header">
+            <div class="pt-4 pb-2 pe-3 bd-highlight">
+                <p>01723456789</p>
+            </div>
+            <div class="pt-4 pb-2 bd-highlight">
+                <p>example@gmail.com</p>
+            </div>
+            <div class="ms-auto pt-4 pb-2 bd-highlight">
+                <p>English / Bangla</p>
             </div>
         </div>
-        <div id="site-header-auth-container">
-            <button id="site-header-login-button" class="site-header-auth-button">Log in</button>
+
+        <!----- header navigation ----->
+        <div id="site-header">
+            <div id="site-header-logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div id="site-header-container">
+                <input type="checkbox" class="toggleSideMenu" id="toggleSideMenu" autocomplete="off">
+                <label for="toggleSideMenu" class="hamburger-icon">
+                    <div class="hamburger-menu-line diagonal-1"></div>
+                    <div class="hamburger-menu-line horizontal"></div>
+                    <div class="hamburger-menu-line diagonal-2"></div>
+                </label>
+                <div id="side-menu-container">
+                    <nav id="top-menu">
+                        <ul id="main-menu">
+                            <li class="nav-item dropdown main-menu-item">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Take
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Responsive</a></li>
+                                    <li><a class="dropdown-item" href="#">Food</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloth</a></li>
+                                    <li><a class="dropdown-item" href="#">Book</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown main-menu-item">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Share
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Responsive</a></li>
+                                    <li><a class="dropdown-item" href="#">Food</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloth</a></li>
+                                    <li><a class="dropdown-item" href="#">Book</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item main-menu-item">
+                                <a class="nav-link active" href="#">Help</a>
+                            </li>
+                            <li class="nav-item main-menu-item">
+                                <a class="nav-link active" href="#">Donate</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="site-header-auth-container">
+                <button id="site-header-login-button" class="site-header-auth-button">Log in</button>
+            </div>
         </div>
     </header>
 

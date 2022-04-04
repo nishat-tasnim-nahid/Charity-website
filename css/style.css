@@ -11,35 +11,48 @@
     color: #fff;
 }
 
+.top-header {
+    /* transition: all 0.2s ease; */
+    /* position: fixed; */
+    /* z-index: 99; */
+}
+
 /*------ header nav styling ---------*/
-header#site-header {
+header#all-header {
+    top: 0px;
     width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+#site-header {
+    /* width: 100%; */
     background: #f4f4f4;
     padding: 15px 0px;
     transition: all 0.2s ease;
-    position: fixed;
-
+    /* position: fixed;
+    z-index: 99; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-header#site-header a {
+#site-header a {
     color: #666666;
     padding: 15px 35px;
 }
 
-header#site-header a:hover {
+#site-header a:hover {
     color: #0097ad !important;
     transition: all 0.2s ease;
 }
 
-header#site-header button:active {
+#site-header button:active {
     position: relative;
     top: 1px;
 }
 
-header#site-header div#site-header-auth-container button {
+#site-header div#site-header-auth-container button {
     outline: 0;
     background: transparent;
     height: 30px;
@@ -51,28 +64,28 @@ header#site-header div#site-header-auth-container button {
     color: #666666;
 }
 
-header#site-header div#site-header-container {
+#site-header div#site-header-container {
     display: flex;
     align-items: center;
     height: 40px;
 }
 
-header#site-header div#site-header-logo {
+#site-header div#site-header-logo {
     width: auto;
     padding: 0;
     margin-right: 30px;
     height: 50px;
 }
 
-header#site-header div#site-header-logo img {
+#site-header div#site-header-logo img {
     height: 50px;
 }
 
-header#site-header ul#main-menu {
+#site-header ul#main-menu {
     padding: 0;
 }
 
-header#site-header ul#main-menu li {
+#site-header ul#main-menu li {
     list-style: none;
     display: inline-block;
     margin-right: 10px;
@@ -80,27 +93,27 @@ header#site-header ul#main-menu li {
     font-size: 11pt;
 }
 
-header#site-header ul#main-menu li:last-of-type {
+#site-header ul#main-menu li:last-of-type {
     margin-right: 0;
 }
 
-header#site-header ul#main-menu li a {
+#site-header ul#main-menu li a {
     text-decoration: none;
 }
 
-header#site-header div#site-header-auth-container {
+#site-header div#site-header-auth-container {
     justify-content: flex-end;
     text-align: right;
     flex-shrink: 0;
 }
 
-header#site-header div#site-header-auth-container .site-header-auth-button:hover {
+#site-header div#site-header-auth-container .site-header-auth-button:hover {
     border-color: #0097ad;
     color: #0097ad;
     transition: all 0.3s ease;
 }
 
-header#site-header div#site-header-auth-container .site-header-auth-button i:after {
+#site-header div#site-header-auth-container .site-header-auth-button i:after {
     content: "";
     margin-right: 0.32em;
 }
@@ -112,8 +125,8 @@ header#site-header div#site-header-auth-container .site-header-auth-button i:aft
     transition: all 0.3s ease-in-out;
 }
 
-header #side-menu-container #before-side-menu,
-header #side-menu-container #after-side-menu {
+#side-menu-container #before-side-menu,
+#side-menu-container #after-side-menu {
     display: none;
 }
 
@@ -137,7 +150,7 @@ input[type=checkbox]#toggleSideMenu {
         box-shadow: inset -1px 0 5px #eeeeee;
     }
 
-    header#site-header ul#main-menu li {
+    #site-header ul#main-menu li {
         display: block;
         width: 100%;
         padding: 15px 20px;
@@ -155,7 +168,7 @@ input[type=checkbox]#toggleSideMenu {
         cursor: pointer;
         position: absolute;
         z-index: 99;
-        top: 22px;
+        top: 82px;
         left: 22px;
         height: 22px;
         width: 22px;
@@ -207,11 +220,11 @@ input[type=checkbox]#toggleSideMenu {
 }
 
 @media screen and (max-width: 768px) {
-    header#site-header div#site-header-auth-container .site-header-auth-button span {
+    #site-header div#site-header-auth-container .site-header-auth-button span {
         display: none;
     }
 
-    header#site-header div#site-header-auth-container .site-header-auth-button i::after {
+    #site-header div#site-header-auth-container .site-header-auth-button i::after {
         margin-right: 0;
     }
 
@@ -225,7 +238,8 @@ input[type=checkbox]#toggleSideMenu {
 }
 
 /* ----------- banner section -------------- */
-.header-banner {
+.header-banner,
+.individual-top-banner {
     margin-top: 80px;
 }
 
