@@ -6,23 +6,9 @@
 
 /*-------- top header --------*/
 .top-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 30px 5px 30px;
-    font-size: 16px;
     background-color: #373F41;
     color: #fff;
 }
-
-.top-headInfo {
-    display: flex;
-}
-
-.top-header p {
-    margin-right: 30px;
-    cursor: pointer;
-}
-
 
 /*------ header nav styling ---------*/
 header#site-header {
