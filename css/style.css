@@ -4,6 +4,15 @@
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
 /*-------- top header & footer bottom--------*/
 .top-header,
 .footer-bottom {
@@ -389,6 +398,10 @@ input[type=checkbox]#toggleSideMenu {
     right: 0px;
     height: 60px;
     width: 100px;
+    background: #373F41;
+}
+
+.search button:hover {
     background: #373F41;
 }
 
