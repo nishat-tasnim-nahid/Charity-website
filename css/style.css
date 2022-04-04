@@ -327,6 +327,88 @@ input[type=checkbox]#toggleSideMenu {
     align-items: center;
 }
 
+/* ---- category banner ---- */
+.category-banner {
+    background-image: url("/images/header-banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    color: white;
+}
+
+
+/*----------- search bar ---------  */
+.search-bar {
+    margin: 120px 0px;
+    /* border: 2px solid red; */
+}
+
+.search {
+    /* border: 2px solid blue; */
+    background: #949496;
+    border-radius: 16px;
+    position: relative;
+    /* box-shadow: 0 0 40px rgba(51, 51, 51, .1) */
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #F2F4F8;
+}
+
+.search .fa-search {
+    margin-right: 15px;
+    position: absolute;
+    top: 25px;
+    left: 20px
+}
+
+.search button {
+    border-radius: 12px;
+    border: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 60px;
+    width: 100px;
+    background: #373F41;
+}
+
+/*----------- card -----------*/
+.cards {
+    margin-bottom: 60px;
+}
+
+.card {
+    margin: 30px;
+}
+
+.card-info {
+    padding: 20px;
+    background: #F2F4F8;
+}
+
+.card-info p {
+    font-size: 16px;
+    color: #999FAA;
+}
+
+.card-info button {
+    color: #F2F4F8;
+    background: #373F41;
+    border-radius: 5px;
+    padding: 5px 16px;
+}
+
+
+
+
+
+
 /*----------- footer ---------- */
 .footer-section,
 .footer-info {
