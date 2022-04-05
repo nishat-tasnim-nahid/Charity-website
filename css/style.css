@@ -431,8 +431,23 @@ input[type=checkbox]#toggleSideMenu {
     padding: 5px 16px;
 }
 
+/*------- pagination --------*/
+.pagination-previous-btn,
+.pagination-next-btn,
+.pagination-counter {
+    border: 3px solid #d7d9de;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
 
-
+.pagination-previous-btn:hover,
+.pagination-next-btn:hover,
+.pagination-counter:hover {
+    color: white;
+    background: #373F41;
+    opacity: 0.5;
+}
 
 
 
