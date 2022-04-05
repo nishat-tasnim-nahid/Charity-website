@@ -266,7 +266,7 @@ input[type=checkbox]#toggleSideMenu {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 100px;
     margin-bottom: 70px;
 }
 
@@ -406,11 +406,11 @@ input[type=checkbox]#toggleSideMenu {
 }
 
 /*----------- card -----------*/
-.cards {
+.individual-card-section {
     margin-bottom: 60px;
 }
 
-.card {
+.individual-card {
     margin: 30px;
 }
 
@@ -437,6 +437,8 @@ input[type=checkbox]#toggleSideMenu {
 
 
 /*----------- footer ---------- */
+
+
 .footer-section,
 .footer-info {
     background: #F2F4F8;
