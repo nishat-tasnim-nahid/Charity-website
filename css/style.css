@@ -317,19 +317,10 @@ input[type=checkbox]#toggleSideMenu {
 }
 
 .social-icons {
-    background-color: rgb(242, 106, 56);
-    background-color: black;
-    color: white;
+    color: black;
     font-size: 24px;
     cursor: pointer;
-    margin-right: 10px;
-    padding: 12px;
-    border-radius: 5px;
-}
-
-.social-icons:hover {
-    background-color: rgb(242, 106, 56);
-    color: black;
+    padding: 5px;
 }
 
 .social-btn:hover {
@@ -401,9 +392,6 @@ input[type=checkbox]#toggleSideMenu {
     background: #373F41;
 }
 
-.search button:hover {
-    background: #373F41;
-}
 
 /*----------- card -----------*/
 .individual-card-section {
@@ -449,7 +437,41 @@ input[type=checkbox]#toggleSideMenu {
     opacity: 0.5;
 }
 
+/* share page */
+.form-description {
+    width: 450px;
+}
 
+.form-section {
+    background: #FAF8F8;
+    padding: 81px 89px;
+    margin: 0px 123px;
+}
+
+.input-box select,
+.input-box input,
+.input-box textarea {
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 10px;
+}
+
+.input-box label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #170F49;
+}
+
+.form-submit-btn {
+    margin-bottom: 50px;
+    background: linear-gradient(180deg, #373F41 99.99%, #EC31F0 100%);
+    box-shadow: 0px 3px 12px rgba(74, 58, 255, 0.18);
+    border-radius: 56px;
+}
 
 /*----------- footer ---------- */
 

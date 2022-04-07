@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Individual Page</title>
+    <title>Share Page</title>
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/a364c6e355.js" crossorigin="anonymous"></script>
@@ -19,12 +19,11 @@
 </head>
 
 <body>
-
     <!----------- header section ----------->
     <header id="all-header">
         <!------ top header --------->
         <div class="d-flex bd-highlight px-5 top-header">
-            <div class="pt-3  pe-3 bd-highlight">
+            <div class="pt-3 pe-3 bd-highlight">
                 <p><a href="tel:01710762853">01710762853</a></p>
             </div>
             <div class="pt-3 bd-highlight">
@@ -103,110 +102,86 @@
         </div>
     </div>
 
-    <!------------ search bar ------------->
-    <div class="container">
-        <div class="row search-bar d-flex justify-content-center align-items-center">
-            <div class="col-md-8">
-                <div class="search">
-                    <i class="fa fa-search"></i>
-                    <input type="text" class="form-control px-5" placeholder="Search">
-                    <button class="btn btn-primary"><i>Search</i></button>
-                </div>
-            </div>
+    <!-- form description -->
+    <div class="d-flex justify-content-center text-center my-5">
+        <div class="form-description">
+            <h3 class="lh-lg">Post Your Extra goods</h3>
+            <p class="lh-base ">Please fill the form below to receive a quote for workspace. Please add all the
+                details required</p>
+            <!-- <p class="lh-base"> Please add all the details required</p> -->
         </div>
     </div>
 
-    <!-------------- card -------------->
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 ms-5 me-0 d-flex justify-content-center">
 
-        <div class="col cards individual-card-section">
-            <div class="card h-75 w-75 border-0 individual-card">
-                <img src="images/card-image1.png" class="card-img-top" alt="...">
-                <div class="card-body card-info">
-                    <h6 class="card-title"><b>Request want you want from</b></h6>
-                    <p class="card-text">category, Category</p>
-                    <button class="btn" type="submit"><a href="#"></a><i>Details</i></button>
-                </div>
-            </div>
+    <!-- form -->
+    <form class="row g-5 form-section">
+        <div class="col-lg-6 col-md-12 input-box">
+            <label for="inputName4" class="form-label">Type Goods:</label>
+            <select type="selected" class="form-select form-select-md " aria-label=".form-select-md example">
+                <option selected>select</option>
+                <option value="1">Foods</option>
+                <option value="2">Books</option>
+                <option value="3">Clothes</option>
+            </select>
+        </div>
+        <div class="col-lg-6 col-md-12 input-box">
+            <label for="inputName4" class="form-label">Type:</label>
+            <select class="form-select form-select-md" aria-label=".form-select-md example">
+                <option selected>select</option>
+                <option value="1">Individual</option>
+                <option value="2">Restaurant</option>
+            </select>
         </div>
 
-        <div class="col cards individual-card-section">
-            <div class="card h-75 w-75 border-0 individual-card">
-                <img src="images/card-image1.png" class="card-img-top" alt="...">
-                <div class="card-body card-info">
-                    <h6 class="card-title"><b>Request want you want from</b></h6>
-                    <p class="card-text">category, Category</p>
-                    <button type="submit"><a href="#"></a><i>Details</i></button>
-                </div>
-            </div>
+        <div class="col-lg-6 col-md-12 input-box">
+            <label for="inputName4" class="form-label">Name:</label>
+            <input type="name" class="form-control" id="inputName4">
+        </div>
+        <div class="col-lg-6 col-md-12 input-box">
+            <label for="inputnumber4" class="form-label">Phone Number:</label>
+            <input type="number" class="form-control" id="inputnumber4">
         </div>
 
-        <div class="col cards individual-card-section">
-            <div class="card h-75 w-75 border-0 individual-card">
-                <img src="images/card-image1.png" class="card-img-top" alt="...">
-                <div class="card-body card-info">
-                    <h6 class="card-title"><b>Request want you want from</b></h6>
-                    <p class="card-text">category, Category</p>
-                    <button type="submit"><a href="#"></a><i>Details</i></button>
-                </div>
-            </div>
+        <div class="col-12 input-box">
+            <label for="inputAddress" class="form-label">Address:</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="">
         </div>
 
-        <div class="col cards individual-card-section">
-            <div class="card h-75 w-75 border-0 individual-card">
-                <img src="images/card-image1.png" class="card-img-top" alt="...">
-                <div class="card-body card-info">
-                    <h6 class="card-title"><b>Request want you want from</b></h6>
-                    <p class="card-text">category, Category</p>
-                    <button type="submit"><a href="#"></a><i>Details</i></button>
-                </div>
-            </div>
+        <div class="col-lg-6 col-md-12 input-box">
+            <label for="inputDate4" class="form-label">Expiry Date:</label>
+            <input type="date" class="form-control" id="inputDate4">
+        </div>
+        <div class="col-lg-6 col-md-12 input-box">
+            <label for="inputDate4" class="form-label">Expiry time:</label>
+            <input type="date" class="form-control" id="inputDate4">
         </div>
 
-        <div class="col cards individual-card-section">
-            <div class="card h-75 w-75 border-0 individual-card">
-                <img src="images/card-image1.png" class="card-img-top" alt="...">
-                <div class="card-body card-info">
-                    <h6 class="card-title"><b>Request want you want from</b></h6>
-                    <p class="card-text">category, Category</p>
-                    <button type="submit"><a href="#"></a><i>Details</i></button>
-                </div>
-            </div>
+        <div class="col-12 input-box">
+            <label for="inputText4" class="form-label">Details:</label>
+            <textarea class="form-control" rows="4" aria-label="With textarea"></textarea>
         </div>
 
-        <div class="col cards individual-card-section">
-            <div class="card h-75 w-75 border-0 individual-card">
-                <img src="images/card-image1.png" class="card-img-top" alt="...">
-                <div class="card-body card-info">
-                    <h6 class="card-title"><b>Request want you want from</b></h6>
-                    <p class="card-text">category, Category</p>
-                    <button type="submit"><a href="#"></a><i>Details</i></button>
-                </div>
-            </div>
+        <div class="col-lg-6 col-md-12 input-box">
+            <input type="file" class="form-control" id="inputGroupFile02">
+        </div>
+        <div class="col-lg-6 col-md-12 input-box">
+            <input type="file" class="form-control" id="inputGroupFile02">
         </div>
 
+        <div class="col-lg-6 col-md-12 input-box">
+            <input type="file" class="form-control" id="inputGroupFile02">
+        </div>
+        <div class="col-lg-6 col-md-12 input-box">
+            <input type="file" class="form-control" id="inputGroupFile02">
+        </div>
+
+    </form>
+    <div class="col-12 d-flex justify-content-center align-middle w-100 my-5">
+        <button type="submit" class="btn btn-primary form-submit-btn w-25">Submit Post</button>
     </div>
 
-    <!--------- pagination --------->
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination d-flex justify-content-center align-middle my-5">
-            <li class="page-item p-1 ">
-                <a class="page-link pagination-previous-btn" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
-            <li class="page-item p-1"><a class="page-link pagination-counter" href="#">1</a></li>
-            <li class="page-item p-1"><a class="page-link pagination-counter" href="#">2</a></li>
-            <li class="page-item p-1"><a class="page-link pagination-counter" href="#">...</a></li>
-            <li class="page-item p-1"><a class="page-link pagination-counter" href="#">3</a></li>
-            <li class="page-item p-1"><a class="page-link pagination-counter" href="#">4</a></li>
-            <li class="page-item p-1">
-                <a class="page-link pagination-next-btn" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+
+
 
 
     <!----------- footer ------------>
@@ -268,6 +243,7 @@
 
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
