@@ -502,6 +502,18 @@ label {
     font-size: 22px;
     line-height: 26px;
     color: #6B705C;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.userOrVolunteer p::after {
+    content: " ";
+    position: absolute;
+    background: #6B705C;
+    width: 100px;
+    height: 2px;
+    bottom: -2px;
+    left: 0px;
 }
 
 .profile-section {
@@ -594,7 +606,6 @@ label {
 .mobilePayment {
     /* display: flex;
     justify-content: center; */
-    border: 2px solid green;
     padding: 100px 70px 150px;
     background: linear-gradient(to top, #66ffcc 0%, #003300 100%);
 
@@ -611,7 +622,7 @@ label {
 }
 
 .mobilePaymentInfo {
-    /* padding: 100px 70px 150px; */
+    padding: 100px 70px 150px;
     /* width: 0;
     height: 0; */
     /* background: linear-gradient(to top, #66ffcc 0%, #003300 100%); */
