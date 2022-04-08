@@ -458,6 +458,11 @@ input[type=checkbox]#toggleSideMenu {
     border-radius: 10px;
 }
 
+.form-select-input {
+    width: 100%;
+    padding: 7px;
+}
+
 .input-box label {
     font-style: normal;
     font-weight: 500;
