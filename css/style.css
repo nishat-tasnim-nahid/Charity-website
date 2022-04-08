@@ -343,7 +343,7 @@ input[type=checkbox]#toggleSideMenu {
 
 /* ---- category banner ---- */
 .category-banner {
-    background-image: url("/images/header-banner1.png");
+    background-image: url("../images/header-banner1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
