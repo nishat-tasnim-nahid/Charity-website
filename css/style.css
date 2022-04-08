@@ -598,49 +598,40 @@ label {
 
 /* donate page */
 
-.mobilePayments {
-    border: 2px solid red;
-    margin-top: 200px;
+.mobilePayments,
+.bankPayments {
+    margin: 0px;
 }
 
-.mobilePayment {
-    /* display: flex;
-    justify-content: center; */
-    padding: 100px 70px 150px;
-    background: linear-gradient(to top, #66ffcc 0%, #003300 100%);
-
+.mobilePayment,
+.bankPayment {
+    padding: 0px 70px 30px;
 }
 
-.mobilePayment img {
-    /* padding: 20px; */
+.mobilePayment img,
+.bankPayment img {
     width: 174px;
     height: 180px;
     background: white;
     border: 5px solid #7C8E86;
     border-radius: 50%;
-    margin-top: -200px;
+    margin-bottom: -100px;
 }
 
-.mobilePaymentInfo {
-    padding: 100px 70px 150px;
-    /* width: 0;
-    height: 0; */
-    /* background: linear-gradient(to top, #66ffcc 0%, #003300 100%); */
-    /* border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 50px solid black; */
+.mobilePaymentInfo,
+.bankPaymentInfo {
+    padding: 100px 0px 15px;
+    background: linear-gradient(to top, #66ffcc 0%, #003300 100%);
 }
 
-
-
-
-.mobilePayment p {
+.mobilePayment p,
+.bankPayment p {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 53px;
     text-align: center;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 /*----------- footer ---------- */
