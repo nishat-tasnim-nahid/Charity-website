@@ -2,10 +2,32 @@
 /* No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 356px) {
+    .form-section {
+        padding: 10px 10px;
+        margin: 0px 30px;
+    }
+
+    .form-submit-btn {
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .form-section {
+        padding: 10px 10px;
+        margin: 0px 30px;
+    }
+
+    /* .form-submit-btn {
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 16px;
+    } */
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
