@@ -31,6 +31,12 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .form-section {
+        background: #FAF8F8;
+        padding: 81px 89px;
+        margin: 0px 123px;
+    }
+
     .form-submit-btn {
         margin-bottom: 50px;
         background: linear-gradient(180deg, #373F41 99.99%, #EC31F0 100%);
