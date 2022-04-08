@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Share Page</title>
+    <title>User Profile</title>
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/a364c6e355.js" crossorigin="anonymous"></script>
@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
     <!----------- header section ----------->
     <header id="all-header">
         <!------ top header --------->
@@ -91,97 +92,78 @@
         </div>
     </header>
 
-
     <!-----------individual top banner --------------->
     <div class="category-banner d-flex justify-content-center align-items-center individual-top-banner">
         <div class="row">
             <div class="text-center">
-                <h2><b>He who has never denied himself for <br> the
-                        sake of giving,</b></h2>
+                <h2><b>My Profile</b></h2>
             </div>
         </div>
     </div>
 
-    <!-- form description -->
-    <div class="d-flex justify-content-center text-center my-5">
-        <div class="form-description">
-            <h3 class="lh-lg">Post Your Extra goods</h3>
-            <p class="lh-base ">Please fill the form below to receive a quote for workspace. Please add all the
-                details required</p>
-            <!-- <p class="lh-base"> Please add all the details required</p> -->
-        </div>
+
+    <!-- user volunteer -->
+    <div class="ps-5 pt-5 userOrVolunteer">
+        <h3>User or volunteer</h3>
+        <p>My profile</p>
+        <hr style="width:90px; height:3px;">
     </div>
 
 
-    <!-- form -->
-    <form class="row g-5  form-section">
-        <div class="col-lg-6 col-md-12 input-box">
-            <label for="inputName4" class="form-label">Type Goods:</label>
-            <select type="selected" class="form-select-md form-select-input" aria-label=".form-select-md example">
-                <option selected> select</option>
-                <option value="1">Foods</option>
-                <option value="2">Books</option>
-                <option value="3">Clothes</option>
-            </select>
+    <!-- profile and form -->
+    <div class="profile-section">
+        <div class="row">
+            <div
+                class="col-sm-12 col-md-5 col-lg-4 d-flex justify-content-center align-middle text-center userProfile ">
+                <div class="">
+                    <div class="profileImage d-flex justify-content-center align-middle">
+                        <img src="images/userProfile1.png" alt="">
+                    </div>
+                    <div class="align-middle">
+                        <p class="userName"><b>Khusan Akhmedov</b></p>
+                        <p class="userTitle">Web-designer</p>
+                        <button class="btn btn-primary profileBtn"> Upload new avatar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-7 col-lg-8 d-flex justify-content-center align-middle userForm">
+                <form class="row g-3">
+                    <div class="d-flex justify-content-between">
+                        <p class="fw-bold">BASIC INFO</p>
+                        <div class="userProfile-formBtn">
+                            <button class="btn btn-primary me-3" type="reset">CANCEL</button>
+                            <button class="btn btn-primary" type="submit">SAVE</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="inputName4" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="inputName4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputNumber4" class="form-label">Phone</label>
+                        <input type="number" class="form-control" id="inputNumber4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputText4" class="form-label">Address</label>
+                        <textarea class="form-control" rows="3" aria-label="With textarea"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <label for="inputPassword4" class="form-label">Change password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="col-lg-6 col-md-12 input-box">
-            <label for="inputName4" class="form-label">Type:</label>
-            <select type="selected" class="form-select-md form-select-input" aria-label=".form-select-md example">
-                <option selected> select</option>
-                <option value="1">Individual</option>
-                <option value="2">Restaurant</option>
-            </select>
-        </div>
-
-        <div class="col-lg-6 col-md-12 input-box">
-            <label for="inputName4" class="form-label">Name:</label>
-            <input type="name" class="form-control" id="inputName4">
-        </div>
-        <div class="col-lg-6 col-md-12 input-box">
-            <label for="inputnumber4" class="form-label">Phone Number:</label>
-            <input type="number" class="form-control" id="inputnumber4">
-        </div>
-
-        <div class="col-12 input-box">
-            <label for="inputAddress" class="form-label">Address:</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="">
-        </div>
-
-        <div class="col-lg-6 col-md-12 input-box">
-            <label for="inputDate4" class="form-label">Expiry Date:</label>
-            <input type="date" class="form-control" id="inputDate4">
-        </div>
-        <div class="col-lg-6 col-md-12 input-box">
-            <label for="inputTime4" class="form-label">Expiry time:</label>
-            <input type="time" class="form-control" id="inputTime4">
-        </div>
-
-        <div class="col-12 input-box">
-            <label for="inputText4" class="form-label">Details:</label>
-            <textarea class="form-control" rows="4" aria-label="With textarea"></textarea>
-        </div>
-
-        <div class="col-lg-6 col-md-12 input-box">
-            <input type="file" class="form-control" id="inputGroupFile02">
-        </div>
-        <div class="col-lg-6 col-md-12 input-box">
-            <input type="file" class="form-control" id="inputGroupFile02">
-        </div>
-
-        <div class="col-lg-6 col-md-12 input-box">
-            <input type="file" class="form-control" id="inputGroupFile02">
-        </div>
-        <div class="col-lg-6 col-md-12 input-box">
-            <input type="file" class="form-control" id="inputGroupFile02">
-        </div>
-
-    </form>
-    <div class="col-12 d-flex justify-content-center align-middle w-100 my-5">
-        <button type="submit" class="btn btn-primary form-submit-btn w-25">Submit Post</button>
     </div>
 
-
-
+    <!-- clarification list -->
+    <div class="d-flex justify-content-center my-5">
+        <h3>Donator Clarification list- only for donator</h3>
+    </div>
 
 
     <!----------- footer ------------>
@@ -243,8 +225,6 @@
 
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
-
-
 </body>
 
 </html>

@@ -3,6 +3,8 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 356px) {
+
+    /* form */
     .form-section {
         padding: 10px 10px;
         margin: 0px 30px;
@@ -12,25 +14,30 @@
         border-radius: 30px;
         font-weight: bold;
         font-size: 16px;
+    }
+
+    /* userProfile */
+    .userProfile {
+        border-right: 0px;
+        padding: 25px;
+    }
+
+    .userForm {
+        padding: 25;
+    }
+
+    .profileBtn {
+        margin-top: 50px;
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .form-section {
-        padding: 10px 10px;
-        margin: 0px 30px;
-    }
 
-    .form-submit-btn {
-        border-radius: 30px;
-        font-weight: bold;
-        font-size: 16px;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+    /* form */
     .form-section {
         background: #FAF8F8;
         padding: 81px 89px;
@@ -45,6 +52,66 @@
         font-weight: bolder;
         font-size: 20px;
     }
+
+    /* userProfile */
+    .userProfile {
+        border-right: 3px solid #E6E6E6;
+        padding: 100px 60px;
+    }
+
+    .userForm {
+        padding: 100px 60px;
+    }
+
+    .userName {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .userTitle {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .profileBtn {
+        margin-top: 50px;
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* user profile */
+    .userProfile {
+        border-right: 3px solid #E6E6E6;
+        padding: 100px 50px;
+    }
+
+    .userForm {
+        padding: 100px 50px;
+    }
+
+    .profileBtn {
+        margin-top: 50px;
+        width: 294px;
+        height: 50px;
+        background: #373F41;
+        border-radius: 10px;
+        font-family: 'Abhaya Libre';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
