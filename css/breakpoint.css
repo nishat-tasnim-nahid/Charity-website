@@ -38,6 +38,20 @@
     .bankPayment {
         padding: 0px 10px 30px;
     }
+
+    /* post details */
+    .postDetails {
+        padding: 40px 5px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+        color: #000000;
+        width: 100%;
+    }
+
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -92,6 +106,15 @@
         padding: 0px 20px 20px;
     }
 
+    /* post details */
+    .postDetails {
+        padding: 60px;
+        font-size: 16px;
+        line-height: 35px;
+        color: #000000;
+        width: 100%;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -127,7 +150,18 @@
         padding: 0px 70px 30px;
     }
 
-
+    /* post details */
+    .postDetails {
+        display: flex;
+        justify-content: center;
+        padding: 60px 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+        color: #000000;
+        width: 70%;
+    }
 
 }
 

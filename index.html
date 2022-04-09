@@ -30,6 +30,7 @@
 
     <!----------- header section ----------->
     <header id="all-header">
+
         <!------ top header --------->
         <div class="d-flex bd-highlight px-5 top-header">
             <div class=" pt-3 pe-3 bd-highlight">
@@ -95,10 +96,21 @@
                 </div>
             </div>
             <div id="site-header-auth-container">
-                <button id="site-header-login-button" class="site-header-auth-button">Log in</button>
+                <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="site-header-login-button"
+                    class="site-header-auth-button">Log in</a>
+
+
             </div>
         </div>
     </header>
+
+
+
+
+
+
+
+
 
 
     <!----------- header banner ------------>
@@ -533,6 +545,61 @@
     <div class="d-flex justify-content-center py-4 footer-bottom">
         <h6>@ Need'z. All rights reserved.</h6>
     </div>
+
+
+
+
+
+
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="row g-5">
+                        <div class="col-12">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary"
+                        data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open
+                        second modal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Hide this modal and show the first with the button below.
+                </div>
+                <div class="modal-footer">
+                    <button data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary"
+                        data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
+                        first</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
     <!-- bootstrap js -->

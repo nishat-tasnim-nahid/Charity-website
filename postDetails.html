@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Details Page</title>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a364c6e355.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css breakpoint -->
+    <link rel="stylesheet" href="css/breakpoint.css">
+
+</head>
+
+<body>
+    <!----------- header section ----------->
+    <header id="all-header">
+        <!------ top header --------->
+        <div class="d-flex bd-highlight px-5 top-header">
+            <div class="pt-3 pe-3 bd-highlight">
+                <p><a href="tel:01710762853">01710762853</a></p>
+            </div>
+            <div class="pt-3 bd-highlight">
+                <p><a href="mailto:webmaster@example.com">webmaster@example.com</a></p>
+            </div>
+            <div class="ms-auto pt-3 bd-highlight">
+                <p>English / Bangla</p>
+            </div>
+        </div>
+
+        <!----- header navigation ----->
+        <div id="site-header">
+            <div id="site-header-logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div id="site-header-container">
+                <input type="checkbox" class="toggleSideMenu" id="toggleSideMenu" autocomplete="off">
+                <label for="toggleSideMenu" class="hamburger-icon">
+                    <div class="hamburger-menu-line diagonal-1"></div>
+                    <div class="hamburger-menu-line horizontal"></div>
+                    <div class="hamburger-menu-line diagonal-2"></div>
+                </label>
+                <div id="side-menu-container">
+                    <nav id="top-menu">
+                        <ul id="main-menu">
+                            <li class="nav-item dropdown main-menu-item">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Take
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Responsive</a></li>
+                                    <li><a class="dropdown-item" href="#">Food</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloth</a></li>
+                                    <li><a class="dropdown-item" href="#">Book</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown main-menu-item">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Share
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="sharePage.html">Responsive</a></li>
+                                    <li><a class="dropdown-item" href="#">Food</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloth</a></li>
+                                    <li><a class="dropdown-item" href="#">Book</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item main-menu-item">
+                                <a class="nav-link active" href="userProfile.html">Help</a>
+                            </li>
+                            <li class="nav-item main-menu-item">
+                                <a class="nav-link active" href="donate.html">Donate</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="site-header-auth-container">
+                <button id="site-header-login-button" class="site-header-auth-button">Log in</button>
+            </div>
+        </div>
+    </header>
+
+    <!-----------individual top banner --------------->
+    <div class="category-banner d-flex justify-content-center align-items-center individual-top-banner">
+        <div class="row">
+            <div class="text-center">
+                <h2><b>He who has never denied himself for the sake of giving,</b></h2>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- post details -->
+    <section>
+        <div>
+            <div class="row m-5 d-flex justify-content-center align-middle wrapper">
+                <div class="preview col-lg-6 col-md-12 col-sm-12 p-sm-0 p-md-1 p-lg-5 my-5">
+                    <div class="preview-pic tab-content">
+                        <div class="tab-pane active" id="pic-1"><img src="images/postDetailsImg1.jpg" /></div>
+                        <div class="tab-pane" id="pic-2"><img src="images/postDetailsImg2.jpg" /></div>
+                        <div class="tab-pane" id="pic-3"><img src="images/postDetailsImg1.jpg" /></div>
+                        <div class="tab-pane" id="pic-4"><img src="images/postDetailsImg3.jpg" /></div>
+                    </div>
+                    <ul class="preview-thumbnail nav nav-tabs">
+                        <li class="active">
+                            <a data-bs-target="#pic-1" data-bs-toggle="tab"><img src="images/postDetailsImg1.jpg" /></a>
+                        </li>
+                        <li>
+                            <a data-bs-target="#pic-2" data-bs-toggle="tab"><img src="images/postDetailsImg2.jpg" /></a>
+                        </li>
+                        <li>
+                            <a data-bs-target="#pic-3" data-bs-toggle="tab"><img src="images/postDetailsImg1.jpg" /></a>
+                        </li>
+                        <li>
+                            <a data-bs-target="#pic-4" data-bs-toggle="tab"><img src="images/postDetailsImg3.jpg" /></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 p-sm-0 p-md-1 p-lg-5 my-5 d-flex justify-content-center">
+                    <div class="postDetails">
+                        <div>
+                            <h5 class="mb-4 ps-4">Title publishing and graphic design </h5>
+                            <ul>
+                                <li><b>Name:</b> Abdur Rahim Hosain</li>
+                                <li><b>Mobile:</b> 01821347743</li>
+                                <li><b>Address:</b> Sher-e-Bangla Nagar Dhaka-1207</li>
+                                <li><b>Time of Made:</b> 3pm, 2/3/2022</li>
+                                <li><b>Expair date:</b> 3pm, 2/3/2022</li>
+                                <li><b>Details:</b>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur error,
+                                        earum dignissimos magni quod optio quaerat quam quis numquam magnam animi
+                                        corrupti
+                                        blanditiis tempora laborum, ab, tempore culpa? Excepturi et quis, officiis
+                                        nesciunt
+                                        sapiente minus? Aliquid dolorum accusamus non unde?</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn btn-primary" type="submit">Sent Request</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- share on social media -->
+    <div class="d-flex justify-content-center">
+        <div>
+            <p style="font-weight: 600;
+            font-size: 20px;">Share on social media</p>
+            <div class="d-flex justify-content-center">
+                <p><i class="fab fa-facebook social-icon"></i></p>
+                <p><i class="fab fa-twitter social-icon"></i></p>
+                <p><i class="fab fa-google-plus-g social-icon"></i></p>
+                <p><i class="fab fa-linkedin-in social-icon"></i></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!----------- footer ------------>
+    <footer class="footer-section mt-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-5 mx-0 px-5">
+            <div class="col ">
+                <div class="card h-75 border-0 ">
+                    <div class="card-body footer-info">
+                        <img src="images/logo.png" alt="">
+                        <p class="card-text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit</p>
+                        <div class="socialIcons">
+                            <p><i class="fab fa-facebook social-icon"></i></p>
+                            <p><i class="fab fa-twitter social-icon"></i></p>
+                            <p><i class="fab fa-google-plus-g social-icon"></i></p>
+                            <p><i class="fab fa-linkedin-in social-icon"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75 border-0">
+                    <div class="card-body footer-info">
+                        <h5 class="card-title">Site</h5>
+                        <div class="footer-horizental-line"></div>
+                        <p class="card-text">Gallery</p>
+                        <p class="card-text">About Us</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75 border-0">
+                    <div class="card-body footer-info">
+                        <h5 class="card-title">Support</h5>
+                        <div class="footer-horizental-line"></div>
+                        <p class="card-text">Help & FAQ</p>
+                        <p class="card-text">Sign Up As a Provider</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75 border-0">
+                    <div class="card-body footer-info">
+                        <h5 class="card-title">Contract Us</h5>
+                        <div class="footer-horizental-line"></div>
+                        <p class="card-text"><i class="fas fa-phone"></i> +65 7896 7620</p>
+                        <p class="card-text"><i class="fas fa-envelope"></i> example@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer bottom -->
+    <div class="d-flex justify-content-center py-4 footer-bottom">
+        <h6>@ Need'z. All rights reserved.</h6>
+    </div>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+
+</body>
+
+</html>
