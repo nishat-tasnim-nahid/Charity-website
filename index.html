@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/breakpoint.css">
     <!-- light slider css -->
     <link rel="stylesheet" href="css/lightslider.css">
+    <!-- modal css -->
+    <link rel="stylesheet" href="css/modal.css">
     <!-- jquery -->
     <script src="js/jquery.js"></script>
     <!-- light slider js -->
@@ -47,7 +49,7 @@
         <!----- header navigation ----->
         <div id="site-header">
             <div id="site-header-logo">
-                <img src="images/logo.png" alt="">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
             </div>
             <div id="site-header-container">
                 <input type="checkbox" class="toggleSideMenu" id="toggleSideMenu" autocomplete="off">
@@ -98,18 +100,9 @@
             <div id="site-header-auth-container">
                 <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="site-header-login-button"
                     class="site-header-auth-button">Log in</a>
-
-
             </div>
         </div>
     </header>
-
-
-
-
-
-
-
 
 
 
@@ -550,18 +543,22 @@
 
 
 
-
+    <!-- login modal -->
 
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
+
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                    <div class="d-flex justify-content-center">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Login</h5>
+                    </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+
                 <div class="modal-body">
-                    <form action="" class="row g-5">
+                    <form action="" class="row g-4">
                         <div class="col-12">
                             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                         </div>
@@ -569,41 +566,146 @@
                             <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
                         </div>
                     </form>
+                    <div class="d-flex justify-content-center my-4 loginSigninBtn">
+                        <button class="btn btn-primary w-100" type="submit"><b>Login</b></button>
+                    </div>
+
+                    <div class="d-flex justify-content-between modalButtons">
+                        <button data-bs-dismiss="modal" aria-label="Close" class=""
+                            data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Sign up</button>
+                        <button>Forgot password?</button>
+
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary"
-                        data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open
-                        second modal</button>
+
+                <div class="modal-footer d-flex justify-content-center">
+                    <p>Or login with</p>
+                    <a href=""><img style="width:20px" src="images/google.png" alt=""></a>
+                    <a href=""><img style="width:21px" src="images/facebook.png" alt=""></a>
                 </div>
+
             </div>
         </div>
     </div>
+
     <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">Sign Up</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Hide this modal and show the first with the button below.
+
+                    <div class="form">
+                        <ul class="tab-group">
+                            <li class="tab active"><a href="#signup">User</a></li>
+                            <li class="tab"><a href="#login">Volunteer</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="signup">
+                                <h3>Sign Up for User</h3>
+
+                                <form action="/" method="post">
+
+                                    <div class="field-wrap">
+                                        <label>
+                                            Name<span class="req">*</span>
+                                        </label>
+                                        <input type="name" required autocomplete="off" />
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>
+                                            Email Address<span class="req">*</span>
+                                        </label>
+                                        <input type="email" required autocomplete="off" />
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>
+                                            Password<span class="req">*</span>
+                                        </label>
+                                        <input type="password" required autocomplete="off" />
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>
+                                            Phone Number<span class="req">*</span>
+                                        </label>
+                                        <input type="number" required autocomplete="off" />
+                                    </div>
+
+                                    <button type="submit" class="button button-block" />Sign Up</button>
+
+                                </form>
+
+                            </div>
+
+                            <div id="login">
+                                <h3>Sign Up for Volunteer</h3>
+
+                                <form action="/" method="post">
+                                    <div class="field-wrap">
+                                        <label>
+                                            Name<span class="req">*</span>
+                                        </label>
+                                        <input type="name" required autocomplete="off" />
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>
+                                            Email Address<span class="req">*</span>
+                                        </label>
+                                        <input type="email" required autocomplete="off" />
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>
+                                            Password<span class="req">*</span>
+                                        </label>
+                                        <input type="password" required autocomplete="off" />
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>
+                                            Phone Number<span class="req">*</span>
+                                        </label>
+                                        <input type="number" required autocomplete="off" />
+                                    </div>
+
+                                    <button class="button button-block" />Sign Up</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modalButtons">
+                        <button data-bs-dismiss="modal" aria-label="Close" class="" data-bs-target="#exampleModalToggle"
+                            data-bs-toggle="modal">Already register? Login</button>
+                    </div>
+
                 </div>
-                <div class="modal-footer">
-                    <button data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary"
-                        data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
-                        first</button>
+
+                <div class="modal-footer d-flex justify-content-center">
+                    <p>Or login with</p>
+                    <a href=""><img style="width:20px" src="images/google.png" alt=""></a>
+                    <a href=""><img style="width:21px" src="images/facebook.png" alt=""></a>
                 </div>
+
             </div>
         </div>
     </div>
 
 
 
-
-
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- modal js -->
+    <script src="js/modal.js"></script>
     <!-- js -->
     <script src="js/script.js"></script>
 

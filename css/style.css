@@ -728,7 +728,28 @@ label {
 }
 
 
+/* modal */
+.loginSigninBtn button {
+    border: 0px;
+    background-color: #373F41;
+    padding: 10px 0px;
+}
 
+.loginSigninBtn button:hover {
+    background-color: #373F41;
+}
+
+.modalButtons button {
+    border: 0px;
+    background: white;
+    color: gray;
+}
+
+.modalButtons button:hover {
+    border: 0px;
+    background: white;
+    color: gray;
+}
 
 
 
